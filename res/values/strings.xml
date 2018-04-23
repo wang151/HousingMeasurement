@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">MJBIMSdk</string>
+    <string name="jia_device_1">连接设备</string>
+    <string name="jia_device_2">成功连接</string>
+    <string name="jia_device_3">断开连接</string>
+    <string name="jia_device_4">蓝牙关闭</string>
+    <string name="jia_device_5">连接超时</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_package_detail">PackageDetailActivity</string>
+</resources>

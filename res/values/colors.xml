@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="mjsdk_common_font_normal">#666b72</color>
+    <color name="mjsdk_common_font_light">#969696</color>
+    <color name="mjsdk_common_font_grey">#FFD0D0D0</color>
+    
+    <color name="mjsdk_mainbackgroud_color">#333333</color>
+    <color name="mjsdk_widget_bg">#1d8ae7</color>
+    
+    <color name="mjsdk_common_main_white">@android:color/white</color>
+    <color name="mjsdk_common_font_title">@color/mjsdk_common_main_white</color>
+    
+    <color name="mjsdk_ligth_blue">#466fed</color>
+</resources>

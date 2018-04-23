@@ -1,0 +1,52 @@
+{
+	"isCorrected": false,
+	"roomSeqNo": 2,
+	"rooms": [{
+		"ceillingHeight": 2800,
+		"floorHeight": 0,
+		"name": "房间-1",
+		"seqNo": 1,
+		"skirtingHeight": 100,
+		"sttVSeqNo": 0,
+		"type": "room"
+	}],
+	"shapeSeqNo": 1,
+	"shapes": [{
+		"alignInfo1": {
+			"measurement": -1,
+			"vSeqNo": 0,
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"height": 2050,
+		"width": 880,
+		"thickness": 240,
+		"measurement": -1,
+		"name": "入户门",
+		"seqNo": 0,
+		"type": "shape-door"
+	}],
+	"surveyVersion": 1,
+	"version": "4.0",
+	"vertexSeqNo": 2,
+	"vertices": [{
+		"measurement": -1,
+		"muddyMeasurement": -1,
+		"nVSeqNo": -1,
+		"pVSeqNo": 1,
+		"seqNo": 0,
+		"type": "vertex",
+		"x": 440,
+		"y": 0.0
+	}, {
+		"measurement": -1,
+		"muddyMeasurement": -1,
+		"nVSeqNo": 0,
+		"pVSeqNo": -1,
+		"seqNo": 1,
+		"type": "vertex",
+		"x": -440,
+		"y": 0.0
+	}]
+}

@@ -1,0 +1,71 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- common head -->
+    <style name="mjsdk_btnNavTitle">
+        <item name="android:paddingLeft">@dimen/mjsdk_common_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/mjsdk_common_horizontal_margin</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="mjsdk_tvNavTitle">
+        <item name="android:paddingLeft">@dimen/mjsdk_common_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/mjsdk_common_horizontal_margin</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/mjsdk_font_nav_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!--common head-->
+    
+    <style name="mjsdk_m_w">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="mjsdk_BaseTextView" parent="mjsdk_m_w">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/mjsdk_common_font_normal</item>
+        <item name="android:textColor">@color/mjsdk_common_font_normal</item>
+        <item name="android:textColorHint">@color/mjsdk_common_font_light</item>
+    </style>
+    
+    <style name="mjsdk_BaseEditText" parent="mjsdk_BaseTextView">
+        <item name="android:paddingLeft">@dimen/mjsdk_common_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/mjsdk_common_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/mjsdk_common_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/mjsdk_common_vertical_margin</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textColorHint">@color/mjsdk_common_font_grey</item>
+    </style>
+    
+    <style name="mjsdk_CommonSettingFont" parent="mjsdk_BaseEditText">
+        <item name="android:textSize">@dimen/mjsdk_common_font_big</item>
+        <item name="android:paddingTop">@dimen/mjsdk_base_blank_8</item>
+        <item name="android:paddingBottom">@dimen/mjsdk_base_blank_8</item>
+        <item name="android:minHeight">@dimen/mjsdk_common_item_height</item>
+    </style>
+    
+</resources>

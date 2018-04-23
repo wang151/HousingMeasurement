@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mjsdk_common_header"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/mjsdk_mainbackgroud_color"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/mjsdk_title_min_height"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/mjsdk_nav_left"
+        style="@style/mjsdk_btnNavTitle"
+        android:layout_width="wrap_content"
+        android:minWidth="48dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/mjsdk_back"
+        android:scaleType="center"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/mjsdk_head_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="48dp"
+        android:layout_marginLeft="48dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/mjsdk_common_font_title"
+        android:textSize="@dimen/mjsdk_common_font_title" />
+
+    <ImageButton
+        android:id="@+id/mjsdk_nav_right"
+        android:src="@drawable/mjsdk_img_take_photo"
+        style="@style/mjsdk_btnNavTitle"
+        android:layout_width="wrap_content"
+        android:minWidth="48dp"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:scaleType="center"
+        android:layout_alignParentRight="true"/>
+
+    <ImageButton
+        android:id="@+id/mjsdk_nav_right2"
+        style="@style/mjsdk_btnNavTitle"
+        android:layout_width="wrap_content"
+        android:minWidth="48dp"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:scaleType="center"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/mjsdk_nav_right_txt"
+        style="@style/mjsdk_tvNavTitle"
+        android:minWidth="48dp"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:text="功能"
+        android:gravity="center"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

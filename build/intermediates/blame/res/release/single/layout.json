@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\layout\\list_item.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\layout\\mjsdk_imgnote_activity.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\layout\\mjsdk_imgnote_activity.xml"
+    },
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\layout\\mjsdk_test_activity.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\layout\\mjsdk_test_activity.xml"
+    },
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\layout\\activity_package_detail.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\layout\\activity_package_detail.xml"
+    },
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\layout\\survey_view.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\layout\\survey_view.xml"
+    },
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\layout\\luncher_layout.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\layout\\luncher_layout.xml"
+    },
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\layout\\mjsdk_widget_line_blue.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\layout\\mjsdk_widget_line_blue.xml"
+    },
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\layout\\mjsdk_common_title_header.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\layout\\mjsdk_common_title_header.xml"
+    }
+]

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\android\ASTDemo\demo\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="D:\android\ASTDemo\demo\build\intermediates\pre-dexed\debug\gson-2.2.4_a933365effeb96ded18d4fc38e93ba2db1a277fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\ASTDemo\demo\libs\httpclient-4.4.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="c8d96f6fd2bcc179c312da33ee670a71188cc60d">
+        <dex dex="D:\android\ASTDemo\demo\build\intermediates\pre-dexed\debug\httpclient-4.4.1.1_b423ac75a191aa8723d89791d37902c69606a36b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\ASTDemo\demo\libs\libjmm.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="434998ecaf9af75943b26404cb1a2b70ee1edd85">
+        <dex dex="D:\android\ASTDemo\demo\build\intermediates\pre-dexed\debug\libjmm_c7fce83eb265c045fea288759ee77eda73f04dca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\ASTDemo\demo\libs\android-async-http-1.4.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="D:\android\ASTDemo\demo\build\intermediates\pre-dexed\debug\android-async-http-1.4.9_2dc6d6f0e724aa750e1dadf06794ffa655c65b90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\ASTDemo\demo\libs\bugly_crash_release.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="bfabe8f934f80e9effe1d405c2c240df7c88141f">
+        <dex dex="D:\android\ASTDemo\demo\build\intermediates\pre-dexed\debug\bugly_crash_release_8d6ffbbb42ec4b6b666884e09da15a7fb4e89c89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\ASTDemo\demo\libs\com.android.vending.expansion.zipfile.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="95c9b1a43b72596758adc99d5277427eb6db461e">
+        <dex dex="D:\android\ASTDemo\demo\build\intermediates\pre-dexed\debug\com.android.vending.expansion.zipfile_7ff3cb4ef1f996f8f028ac01f787ae7a8a90b147.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\ASTDemo\demo\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="1dc1f63cee098b27db60b9a2833fd7ca58f89636">
+        <dex dex="D:\android\ASTDemo\demo\build\intermediates\pre-dexed\debug\android-support-v4_fc27e741895fb71fea074244516f64f9a7ee55d5.jar" />
+    </item>
+
+</items>

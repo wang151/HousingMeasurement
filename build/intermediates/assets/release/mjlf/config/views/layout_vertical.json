@@ -1,0 +1,299 @@
+{
+  "fileTag": "HOUSE_DESIGN",
+  "camera": {
+    "is2d": false,
+    "transform": {
+      "rotX": 90,
+      "rotY": 0,
+      "rotZ": 180,
+      "centerX": 0,
+      "centerY": 0,
+      "centerZ": 0
+    },
+    "onPan": "translate",
+    "basePlane": "forward"
+  },
+  "toolbox": {
+    "scene": {
+      "title": "立面",
+      "titleId": 4,
+      "pages": [],
+      "no_package_pages": [
+        {
+          "label": "请选择套餐",
+          "id": "package",
+          "selectEnabled": false
+        },
+        {
+          "label": "地",
+          "page": "package_page",
+          "spus": [],
+          "space": "layout_2d"
+        },
+        {
+          "label": "墙",
+          "page": "package_page",
+          "spus": [],
+          "space": "layout_vertical_preview"
+        },
+        {
+          "label": "顶",
+          "page": "package_page",
+          "spus": [],
+          "space": "layout_ceiling"
+        }
+      ],
+      "has_package_pages": [
+        {
+          "label": "地",
+          "page": "package_page",
+          "spus": [],
+          "space": "layout_2d"
+        },
+        {
+          "label": "墙",
+          "page": "package_page",
+          "spus": [],
+          "space": "layout_vertical_preview"
+        },
+        {
+          "label": "顶",
+          "page": "package_page",
+          "spus": [],
+          "space": "layout_ceiling"
+        }
+      ],
+      "second_pages": [
+        {
+          "label": "墙面增项",
+          "page": "package_page",
+          "spus": []
+        }
+      ],
+      "third_pages": [
+        {
+          "label": "数量",
+          "page": "keyboard_page",
+          "field": "number"
+        }
+      ]
+    },
+    "shape-cabinet": {
+      "title": "橱柜",
+      "pages": [
+        {
+          "label": "边距",
+          "page": "keyboard_page",
+          "field": "x",
+          "cameraFocus": "camera_focus_vert_edge1_2d"
+        },
+        {
+          "label": "距地",
+          "page": "keyboard_page",
+          "field": "y",
+          "cameraFocus": "camera_focus_vert_d2f_2d"
+        },
+        {
+          "label": "尺寸",
+          "page": "shapeDimensionPage",
+          "cameraFocus": "camera_focus_change_viewport"
+        },
+        {
+          "label": "删除",
+          "selectEnabled": false,
+          "id": "deleteElement"
+        }
+      ],
+      "second_pages": [
+        {
+          "label": "宽度",
+          "page": "keyboard_page",
+          "field": "width",
+          "auto_measurement_index": 0
+        },
+        {
+          "label": "高度",
+          "page": "keyboard_page",
+          "field": "height",
+          "auto_measurement_index": 1
+        },
+        {
+          "label": "深度",
+          "page": "keyboard_page",
+          "field": "thickness",
+          "auto_measurement_index": 2
+        },
+        {
+          "label": "边距",
+          "page": "keyboard_page",
+          "field": "x",
+          "auto_measurement_index": 3
+        },
+        {
+          "label": "距地",
+          "page": "keyboard_page",
+          "field": "y",
+          "auto_measurement_index": 4
+        }
+      ]
+    },
+    "shape-furniture": {
+      "title": "家具",
+      "pages": [
+        {
+          "label": "边距",
+          "page": "keyboard_page",
+          "field": "x",
+          "cameraFocus": "camera_focus_vert_edge1_2d"
+        },
+        {
+          "label": "距地",
+          "page": "keyboard_page",
+          "field": "y",
+          "cameraFocus": "camera_focus_vert_d2f_2d"
+        },
+        {
+          "label": "尺寸",
+          "page": "shapeDimensionPage",
+          "cameraFocus": "camera_focus_change_viewport"
+        },
+        {
+          "label": "删除",
+          "selectEnabled": false,
+          "id": "deleteElement"
+        }
+      ],
+      "second_pages": [
+        {
+          "label": "宽度",
+          "page": "keyboard_page",
+          "field": "width",
+          "auto_measurement_index": 0
+        },
+        {
+          "label": "高度",
+          "page": "keyboard_page",
+          "field": "height",
+          "auto_measurement_index": 1
+        },
+        {
+          "label": "深度",
+          "page": "keyboard_page",
+          "field": "thickness",
+          "auto_measurement_index": 2
+        },
+        {
+          "label": "边距",
+          "page": "keyboard_page",
+          "field": "x",
+          "auto_measurement_index": 3
+        },
+        {
+          "label": "距地",
+          "page": "keyboard_page",
+          "field": "y",
+          "auto_measurement_index": 4
+        }
+      ]
+    }
+  },
+  "pickObjects": {
+    "shape-window-buy": {
+      "priority": 2
+    },
+    "shape-window": {
+      "priority": 2
+    },
+    "shape-door": {
+      "priority": 2
+    },
+    "shape-yakou": {
+      "priority": 2
+    },
+    "shape-wallface": {
+      "priority": 2
+    },
+    "shape-furniture": {
+      "priority": 3
+    },
+    "shape-cabinet": {
+      "priority": 3
+    }
+  },
+  "dragCollider": {
+    "general-shape": [
+      "wall-face"
+    ]
+  },
+  "render": {
+    "shape-furniture": {
+      "drag-enabled": true,
+      "skin": {
+        "active": "active_vertical",
+        "deactive": "deactive_vertical",
+        "draggingOk": "draggingOk_vertical",
+        "draggingError": "draggingError_vertical"
+      }
+    },
+    "shape-door": {
+      "skin": {
+        "active": "deactive_vertical",
+        "deactive": "deactive_vertical"
+      }
+    },
+    "shape-window": {
+      "skin": {
+        "active": "deactive_vertical",
+        "deactive": "deactive_vertical"
+      }
+    },
+    "shape-yakou": {
+      "skin": {
+        "active": "deactive_vertical",
+        "deactive": "deactive_vertical"
+      }
+    },
+    "shape-pillar": {
+      "skin": {
+        "active": "deactive_vertical",
+        "deactive": "deactive_vertical"
+      }
+    },
+    "shape-window-buy": {
+      "skin": {
+        "active": "deactive_vertical",
+        "deactive": "deactive_vertical"
+      }
+    },
+    "curved-wall-shape": {
+      "skin": {
+        "active": "deactive_vertical",
+        "deactive": "deactive_vertical"
+      }
+    },
+    "shape-cabinet": {
+      "drag-enabled": true,
+      "skin": {
+        "active": "active_vertical",
+        "deactive": "deactive_vertical",
+        "draggingOk": "draggingOk_vertical",
+        "draggingError": "draggingError_vertical"
+      }
+    },
+    "shape-for-wallface": {
+      "drag-enabled": false,
+      "skin": {
+        "active": "active_vertical",
+        "deactive": "deactive_vertical",
+        "draggingOk": "draggingOk_vertical",
+        "draggingError": "draggingError_vertical"
+      }
+    },
+    "vertex": {
+      "skin": {
+        "deactive": "deactive_vertical",
+        "vertical": "vertical_vertical"
+      }
+    }
+  }
+}

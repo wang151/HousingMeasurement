@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mjsdk_base_blank_25">25dp</dimen>
+    <dimen name="mjsdk_base_blank_20">20dp</dimen>
+    <dimen name="mjsdk_base_blank_18">18dp</dimen>
+    <dimen name="mjsdk_base_blank_16">16dp</dimen>
+    <dimen name="mjsdk_base_blank_10">10dp</dimen>
+    <dimen name="mjsdk_base_blank_8">8dp</dimen>
+    <dimen name="mjsdk_base_blank_5">5dp</dimen>
+    <dimen name="mjsdk_base_blank_4">4dp</dimen>
+    <dimen name="mjsdk_base_blank_2">2dp</dimen>
+    <dimen name="mjsdk_base_blank_1">1dp</dimen>
+    
+    <dimen name="mjsdk_common_font_super_big">30sp</dimen>
+    <dimen name="mjsdk_common_font_title">20sp</dimen>
+    <dimen name="mjsdk_common_font_biger">18sp</dimen>
+    <dimen name="mjsdk_common_font_big">16sp</dimen>
+    <dimen name="mjsdk_common_font_normal">14sp</dimen>
+    <dimen name="mjsdk_common_font_small">12sp</dimen>
+    <dimen name="mjsdk_common_font_smaller">11sp</dimen>
+    <dimen name="mjsdk_common_font_smaller2">10sp</dimen>
+    
+    <dimen name="mjsdk_common_item_height">50dp</dimen>
+    <dimen name="mjsdk_title_min_height">48dp</dimen>
+    
+    <dimen name="mjsdk_common_line_size">0.8dp</dimen>
+    <dimen name="mjsdk_common_line_wide">2dp</dimen>
+    
+    <dimen name="mjsdk_common_horizontal_margin">@dimen/mjsdk_base_blank_16</dimen>
+    <dimen name="mjsdk_common_vertical_margin">@dimen/mjsdk_base_blank_5</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+</resources>

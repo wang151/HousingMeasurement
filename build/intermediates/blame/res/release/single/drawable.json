@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\drawable\\mjsdk_radio_text.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\drawable\\mjsdk_radio_text.xml"
+    },
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\drawable\\mjsdk_radio_yidong.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\drawable\\mjsdk_radio_yidong.xml"
+    },
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\drawable\\mjsdk_radio_line.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\drawable\\mjsdk_radio_line.xml"
+    },
+    {
+        "merged": "D:\\android\\ASTDemo\\demo\\build\\intermediates\\res\\merged\\release\\drawable\\mjsdk_wifi_animation.xml",
+        "source": "D:\\android\\ASTDemo\\demo\\res\\drawable\\mjsdk_wifi_animation.xml"
+    }
+]

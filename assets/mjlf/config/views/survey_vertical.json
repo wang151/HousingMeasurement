@@ -1,0 +1,121 @@
+{
+    "fileTag":"HOUSE_SURVEY",
+    "camera":{
+    	"is2d":false,
+    	"transform":{
+    		"rotX":90,
+    		"rotY":0,
+    		"rotZ":0,
+    		"centerX":0,
+    		"centerY":0,
+    		"centerZ":0
+    	},
+    	"onPan":"translate",
+        "basePlane":"forward"
+    },
+	"toolbox":{
+        "shape-for-wallface":{
+            "title":"墙标",
+            "pages":[
+                {"label":"边距","page":"keyboard_page","field":"x","cameraFocus":"camera_focus_vert_edge1_2d"},
+                {"label":"距地","page":"keyboard_page","field":"y","cameraFocus":"camera_focus_vert_d2f_2d"},
+                {"label":"距墙","page":"keyboard_page","field":"z"},
+                {"label":"宽度","page":"keyboard_page","field":"width","cameraFocus":"camera_focus_vert_width_2d"},
+                {"label":"高度","page":"keyboard_page","field":"height","cameraFocus":"camera_focus_vert_height_2d"},
+                {"label":"直径","page":"keyboard_page","field":"diameter","cameraFocus":"camera_focus_vert_height_2d"},
+                {"label":"厚度","page":"keyboard_page","field":"thickness"},
+                {"label":"删除", "selectEnabled":false,"id":"deleteElement"}
+            ]
+        },
+		"scene":{
+			"title":"立面",
+            "titleId":1,
+			"titleIcon":"images/white_left_arrow.png",
+			"pages":[
+				{"label":"标注","id":"insert","page":"model_page_without_cata","cond":{"field":"alias","value":"wallface_survey_models"}},
+				{"label":"拍照", "selectEnabled":false,"id":"wallfacePhoto"}
+			]
+		}
+	},
+	"pickObjects":{
+        "shape-window-buy":{
+            "priority":3
+        },
+        "shape-window":{
+            "priority":3
+        },
+        "shape-door":{
+            "priority":3
+        },
+        "shape-yakou":{
+            "priority":3
+        },
+        "shape-wallface":{
+            "priority":1
+        }
+    },
+    "dragCollider":{
+        "general-shape":[
+            "wall-face"
+        ]
+    },
+	"render":{
+		"shape-furniture":{
+			"skin":{
+                "active":"active_2d",
+                "deactive":"deactive_2d"
+			}
+		},
+		"shape-door":{
+			"skin":{
+                "active": "deactive_vertical",
+				"deactive":"deactive_vertical"
+			}
+		},
+		"shape-window":{
+			"skin":{
+                "active": "deactive_vertical",
+                "deactive":"deactive_vertical"
+			}
+        },
+        "shape-yakou":{
+            "skin":{
+                "active": "deactive_vertical",
+                "deactive":"deactive_vertical"
+            }
+        },
+        "shape-pillar":{
+            "skin":{
+                "active": "deactive_vertical",
+                "deactive":"deactive_vertical"
+            }
+        },
+        "shape-window-buy":{
+            "skin":{
+                "active": "deactive_vertical",
+                "deactive":"deactive_vertical"
+            }
+        },
+        "curved-wall-shape": {
+            "skin": {
+                "active": "deactive_vertical",
+                "deactive": "deactive_vertical"
+            }
+        },
+        "shape-for-wallface":{
+            "drag-enabled":true,
+            "skin":{
+                "active":"active_vertical",
+                "deactive":"deactive_vertical",
+                "draggingOk":"draggingOk_vertical",
+                "draggingError":"draggingError_vertical"
+            }
+        },
+		"vertex":{
+			"skin":{
+				"deactive":"deactive_vertical",
+				"vertical":"vertical_vertical"
+            }
+		}
+	}
+}

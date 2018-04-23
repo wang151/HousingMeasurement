@@ -1,0 +1,687 @@
+{
+  "errorCode": 0,
+  "errorMessage": "",
+  "result": {
+    "packages": [
+      {
+        "packageNo": "spu1",
+        "forRoom": [
+          "厨房"
+        ],
+        "name": "厨房简装套餐1",
+        "desc": "厨房简装套餐",
+        "price": 98000.0,
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "detailUrl": "http://www.baidu.com",
+        "applyWholePackage":true,
+        "spus": [
+          {
+            "spu": "spu1010",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1011",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1012",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1013",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1009",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1000",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1001",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1100",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1002",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1006",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1007",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1008",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1014",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1015",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1017",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1016",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1018",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1019",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1020",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1003",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1004",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1005",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "spu1021",
+            "wholePackageSelCode": "spu-kitchen-package-01",
+            "num": -1
+          },
+          {
+            "spu": "0757-SSPU-0014",
+            "num": 1
+          },
+          {
+            "spu": "0757-SSPU-0013",
+            "num": 1
+          }
+        ]
+      },
+      {
+        "packageNo": "spu2",
+        "forRoom": [
+          "主卫"
+        ],
+        "name": "主卫套餐包2",
+        "desc": "主卫套餐包",
+        "price": 38000.0,
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "detailUrl": "http://www.baidu.com",
+        "spus": [
+          {
+            "spu": "0757-SSPU-0001",
+            "num": 1
+          },
+          {
+            "spu": "0757-SSPU-0004",
+            "num": 1
+          },
+          {
+            "spu": "0757-SSPU-0003",
+            "num": 1
+          },
+          {
+            "spu": "0757-SSPU-0013",
+            "num": 1
+          },
+          {
+            "spu": "0757-SSPU-0014",
+            "num": 1
+          },
+          {
+            "spu": "0757-SSPU-0015",
+            "num": 1
+          }
+        ]
+      },
+      {
+        "packageNo": "spu3",
+        "forRoom": [
+          "次卫"
+        ],
+        "name": "次卫套餐包3",
+        "desc": "卫生间套餐包",
+        "price": 38000.0,
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "img": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "spus": [
+          {
+            "spu": "0757-SSPU-0001",
+            "num": 1
+          },
+          {
+            "spu": "0757-SSPU-0004",
+            "num": 1
+          },
+          {
+            "spu": "0757-SSPU-0013",
+            "num": 1
+          },
+          {
+            "spu": "0757-SSPU-0014",
+            "num": 1
+          },
+          {
+            "spu": "0757-SSPU-0015",
+            "num": 1
+          }
+        ]
+      }
+    ],
+    "spus": [
+      {
+        "spu": "spu1010",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "灶台柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1011",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "水盆柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1012",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "左开门转角地柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1013",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "右开门转角地柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1009",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "双开门地柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1000",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "左开门地柜",
+        "desc": "sdfghjkl",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1001",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "右开门地柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1100",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "封板",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1002",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "拉篮地柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1006",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "2AB地柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1007",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "2B地柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1008",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "电器下装地柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1014",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "左开门电器桶柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1015",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "右开门电器桶柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1017",
+        "spuType": "general-goods",
+        "spaceType": "wallFace",
+        "name": "双开门炉吊柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1016",
+        "spuType": "general-goods",
+        "spaceType": "wallFace",
+        "name": "单上掀微波炉吊柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1018",
+        "spuType": "general-goods",
+        "spaceType": "wallFace",
+        "name": "单上掀微波炉吊柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1019",
+        "spuType": "general-goods",
+        "spaceType": "wallFace",
+        "name": "左开门转角吊柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1020",
+        "spuType": "general-goods",
+        "spaceType": "wallFace",
+        "name": "右开门转角吊柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1003",
+        "spuType": "general-goods",
+        "spaceType": "wallFace",
+        "name": "开放格吊柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1004",
+        "spuType": "general-goods",
+        "spaceType": "wallFace",
+        "name": "左开门吊柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1005",
+        "spuType": "general-goods",
+        "spaceType": "wallFace",
+        "name": "右开门吊柜",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "spu1021",
+        "spuType": "general-goods",
+        "spaceType": "wallFace",
+        "name": "吊柜封板",
+        "desc": "wertyuio",
+        "wholePackageSelCode": "spu-kitchen-package-01",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "0757-SSPU-0001",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "马桶",
+        "desc": "zxcvbnm",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "主卫",
+          "次卫"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "0757-SSPU-0003",
+        "spuType": "general-goods",
+        "spaceType": "floorFace",
+        "name": "浴室柜",
+        "desc": "asdfghjk",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "主卫",
+          "次卫"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "0757-SSPU-0004",
+        "spuType": "general-goods",
+        "spaceType": "wallFace",
+        "name": "花洒",
+        "desc": ".,mnbvc",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "主卫",
+          "次卫"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "0757-SSPU-1050",
+        "spuType": "general-goods",
+        "spaceType": "ceilingFace",
+        "name": "吸顶灯",
+        "desc": ".,mnbvc",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "主卫",
+          "次卫"
+        ],
+        "defaultSelected": false
+      },
+      {
+        "spu": "0757-SSPU-0013",
+        "spuType": "specify-service",
+        "spaceType": "wallFace",
+        "goodsName": "room_wallface",
+        "name": "墙砖铺贴",
+        "desc": ".,mnbvc",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房",
+          "主卫",
+          "次卫"
+        ],
+        "defaultSelected": true
+      },
+      {
+        "spu": "0757-SSPU-0014",
+        "spuType": "specify-service",
+        "goodsName": "room_floor",
+        "spaceType": "floorFace",
+        "name": "地砖铺贴",
+        "desc": ".,mnbvc",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房",
+          "主卫",
+          "次卫"
+        ],
+        "defaultSelected": true
+      },
+      {
+        "spu": "0757-SP-008-001",
+        "spuType": "general-service",
+        "spaceType": "ceilingFace",
+        "name": "铝扣天花板",
+        "desc": ".,mnbvc",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房",
+          "主卫",
+          "次卫"
+        ],
+        "defaultSelected": true
+      },
+      {
+        "spu": "spu-kitchen-package-01",
+        "spuType": "whole-package",
+        "name": "厨房整体套餐",
+        "packageNo": "spu1",
+        "desc": ".,mnbvc",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房"
+        ],
+        "defaultSelected": true
+      },
+      {
+        "spu": "spu-nuanqipian-yiji",
+        "spuType": "general-service",
+        "spaceType": "floorFace",
+        "goodsName": "NuanQiPian",
+        "name": "暖气片移机服务",
+        "desc": ".,mnbvc",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房",
+          "主卫",
+          "次卫"
+        ],
+        "defaultSelected": true
+      },
+      {
+        "spu": "spu-nuanqipian-chaichu",
+        "spuType": "general-service",
+        "spaceType": "floorFace",
+        "goodsName": "NuanQiPian",
+        "name": "暖气片拆除服务",
+        "desc": ".,mnbvc",
+        "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+        "price": 500.0,
+        "forRoom": [
+          "厨房",
+          "主卫",
+          "次卫"
+        ],
+        "defaultSelected": true
+      }
+    ]
+  }
+}

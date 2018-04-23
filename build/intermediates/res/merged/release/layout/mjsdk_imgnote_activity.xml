@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/mjsdk_common_title_header"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/mjsdk_img_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <com.jiamm.imagenote.JMMPictureNoteViewGroup
+                android:id="@+id/mjsdk_imgnote_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/mjsdk_imgnote_region"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/mjsdk_btn_tab_middle"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:id="@+id/mjsdk_imgnote_animation_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="@dimen/mjsdk_base_blank_10"
+                android:layout_marginTop="@dimen/mjsdk_base_blank_10"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mjsdk_wifi_white_bg" 
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/mjsdk_imgnote_animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="@dimen/mjsdk_base_blank_10"
+                android:layout_marginTop="@dimen/mjsdk_base_blank_10"
+                android:background="@drawable/mjsdk_wifi_animation"
+                android:scaleType="centerInside" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/mjsdk_imgnote_bottom_pane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mjsdk_mainbackgroud_color"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <LinearLayout
+                android:id="@+id/mjsdk_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/mjsdk_imgnote_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawablePadding="@dimen/mjsdk_base_blank_5"
+                    android:drawableTop="@drawable/mjsdk_radio_text"
+                    android:gravity="center"
+                    android:text="文字"
+                    android:textColor="@color/mjsdk_common_main_white"
+                    android:textSize="@dimen/mjsdk_common_font_normal" />
+
+                <RadioButton
+                    android:id="@+id/mjsdk_imgnote_line"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawablePadding="@dimen/mjsdk_base_blank_5"
+                    android:drawableTop="@drawable/mjsdk_radio_line"
+                    android:gravity="center"
+                    android:text="长度"
+                    android:textColor="@color/mjsdk_common_main_white"
+                    android:textSize="@dimen/mjsdk_common_font_normal" />
+
+                <RadioButton
+                    android:id="@+id/mjsdk_imgnote_yidong"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawablePadding="@dimen/mjsdk_base_blank_5"
+                    android:drawableTop="@drawable/mjsdk_radio_yidong"
+                    android:gravity="center"
+                    android:text="移动"
+                    android:textColor="@color/mjsdk_common_main_white"
+                    android:textSize="@dimen/mjsdk_common_font_normal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mjsdk_imgnote_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mjsdk_widget_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/mjsdk_imgnote_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mjsdk_image_delete" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/mjsdk_imgnote_edt_value"
+                    style="@style/mjsdk_CommonSettingFont"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:minHeight="0dp"
+                    android:textColor="@color/mjsdk_common_main_white" />
+                
+                <TextView 
+                    android:visibility="gone"
+                    android:id="@+id/mjsdk_imgnote_hint"
+                   android:textColor="@color/mjsdk_common_main_white"
+                    android:text="mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                
+                </LinearLayout>
+
+                <include layout="@layout/mjsdk_widget_line_blue" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/mjsdk_imgnote_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mjsdk_image_done" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

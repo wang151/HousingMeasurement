@@ -1,0 +1,374 @@
+{
+  "errorCode": 0,
+  "errorMessage": "",
+  "result": [
+    {
+      "spu": "spu-kitchen-package-01",
+      "ofPackage": "spu1",
+      "spuType": "whole-package",
+      "goods": [
+        {
+          "sku": "whole-package-sku01",
+          "name": "博洛尼整体橱柜1",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+          "components": [
+            {
+              "sku": "20000",
+              "name": "cabinet-table-face",
+              "desc": "台面样式",
+              "price": 8000.0,
+              "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+            },
+            {
+              "sku": "10000",
+              "name": "cabinet-face-panel",
+              "desc": "柜门样式",
+              "price": 8000.0,
+              "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+            },
+            {
+              "sku": "sku1033",
+              "name": "cabinet-general-panel",
+              "desc": "普通橱柜面板样式",
+              "price": 8000.0,
+              "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+            }
+          ],
+          "spus": [
+            {
+              "spu": "spu1010",
+              "sku": "sku1010"
+            },
+            {
+              "spu": "spu1011",
+              "sku": "sku1011"
+            },
+            {
+              "spu": "spu1012",
+              "sku": "sku1012"
+            },
+            {
+              "spu": "spu1013",
+              "sku": "sku1013"
+            },
+            {
+              "spu": "spu1009",
+              "sku": "sku1009"
+            },
+            {
+              "spu": "spu1000",
+              "sku": "sku1000"
+            },
+            {
+              "spu": "spu1001",
+              "sku": "sku1001"
+            },
+            {
+              "spu": "spu1100",
+              "sku": "sku1100"
+            },
+            {
+              "spu": "spu1002",
+              "sku": "sku1002"
+            },
+            {
+              "spu": "spu1006",
+              "sku": "sku1006"
+            },
+            {
+              "spu": "spu1007",
+              "sku": "sku1007"
+            },
+            {
+              "spu": "spu1008",
+              "sku": "sku1008"
+            },
+            {
+              "spu": "spu1014",
+              "sku": "sku1014"
+            },
+            {
+              "spu": "spu1015",
+              "sku": "sku1015"
+            },
+            {
+              "spu": "spu1017",
+              "sku": "sku1017"
+            },
+            {
+              "spu": "spu1016",
+              "sku": "sku1016"
+            },
+            {
+              "spu": "spu1018",
+              "sku": "sku1018"
+            },
+            {
+              "spu": "spu1019",
+              "sku": "sku1019"
+            },
+            {
+              "spu": "spu1020",
+              "sku": "sku1020"
+            },
+            {
+              "spu": "spu1003",
+              "sku": "sku1003"
+            },
+            {
+              "spu": "spu1004",
+              "sku": "sku1004"
+            },
+            {
+              "spu": "spu1005",
+              "sku": "sku1005"
+            },
+            {
+              "spu": "spu1021",
+              "sku": "sku1021"
+            }
+          ]
+        },
+        {
+          "sku": "whole-package-sku02",
+          "name": "科达整体橱柜1",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg",
+          "components": [
+            {
+              "sku": "20001",
+              "name": "cabinet-table-face",
+              "desc": "台面样式",
+              "price": 8000.0,
+              "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+            },
+            {
+              "sku": "10003",
+              "name": "cabinet-face-panel",
+              "desc": "柜门样式",
+              "price": 8000.0,
+              "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+            },
+            {
+              "sku": "sku1032",
+              "name": "cabinet-general-panel",
+              "desc": "普通橱柜面板样式",
+              "price": 8000.0,
+              "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+            }
+          ],
+          "spus": [
+            {
+              "spu": "spu1010",
+              "sku": "sku2010"
+            },
+            {
+              "spu": "spu1011",
+              "sku": "sku2011"
+            },
+            {
+              "spu": "spu1012",
+              "sku": "sku2012"
+            },
+            {
+              "spu": "spu1013",
+              "sku": "sku2013"
+            },
+            {
+              "spu": "spu1009",
+              "sku": "sku2009"
+            },
+            {
+              "spu": "spu1000",
+              "sku": "sku2000"
+            },
+            {
+              "spu": "spu1001",
+              "sku": "sku2001"
+            },
+            {
+              "spu": "spu1100",
+              "sku": "sku2100"
+            },
+            {
+              "spu": "spu1002",
+              "sku": "sku2002"
+            },
+            {
+              "spu": "spu1006",
+              "sku": "sku2006"
+            },
+            {
+              "spu": "spu1007",
+              "sku": "sku2007"
+            },
+            {
+              "spu": "spu1008",
+              "sku": "sku2008"
+            },
+            {
+              "spu": "spu1014",
+              "sku": "sku2014"
+            },
+            {
+              "spu": "spu1015",
+              "sku": "sku2015"
+            },
+            {
+              "spu": "spu1017",
+              "sku": "sku2017"
+            },
+            {
+              "spu": "spu1016",
+              "sku": "sku2016"
+            },
+            {
+              "spu": "spu1018",
+              "sku": "sku2018"
+            },
+            {
+              "spu": "spu1019",
+              "sku": "sku2019"
+            },
+            {
+              "spu": "spu1020",
+              "sku": "sku2020"
+            },
+            {
+              "spu": "spu1003",
+              "sku": "sku2003"
+            },
+            {
+              "spu": "spu1004",
+              "sku": "sku2004"
+            },
+            {
+              "spu": "spu1005",
+              "sku": "sku2005"
+            },
+            {
+              "spu": "spu1021",
+              "sku": "sku2021"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spu": "0757-SSPU-0001",
+      "ofPackage": "所属套餐包1",
+      "goods": [
+        {
+          "sku": "sku1035",
+          "name": "MT01",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+        }
+      ]
+    },
+    {
+      "spu": "0757-SSPU-0003",
+      "ofPackage": "所属套餐包1",
+      "goods": [
+        {
+          "sku": "sku1037",
+          "name": "ysg01",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+        },
+        {
+          "sku": "sku1033",
+          "name": "ysg02",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+        }
+      ]
+    },
+    {
+      "spu": "0757-SSPU-0004",
+      "ofPackage": "所属套餐包1",
+      "goods": [
+        {
+          "sku": "sku1038",
+          "name": "hs01",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+        },
+        {
+          "sku": "sku1039",
+          "name": "hs02",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+        }
+      ]
+    },
+    {
+      "spu": "0757-SSPU-0013",
+      "ofPackage": "所属套餐包1",
+      "goods": [
+        {
+          "sku": "sku1011",
+          "name": "QM1001",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+        },
+        {
+          "sku": "sku1029",
+          "name": "QM1019",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+        }
+      ]
+    },
+    {
+      "spu": "0757-SSPU-0014",
+      "ofPackage": "所属套餐包1",
+      "goods": [
+        {
+          "sku": "sku1001",
+          "name": "DM1001",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+        },
+        {
+          "sku": "sku1008",
+          "name": "DM1008",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+        }
+      ]
+    },
+    {
+      "spu": "0757-SSPU-0015",
+      "ofPackage": "所属套餐包1",
+      "goods": [
+        {
+          "sku": "0757-ZH-0074",
+          "name": "德高找平砂浆",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+        },
+        {
+          "sku": "0757-ZH-0075",
+          "name": "智恒自流平",
+          "desc": "desc",
+          "price": 8000.0,
+          "thumb": "http://tg.kkzhuang.com/download_ia11/stock_preview/image/nopic.jpg"
+        }
+      ]
+    }
+  ]
+}
